@@ -37,5 +37,6 @@ module.exports = {
     'react/no-unstable-nested-components': [0],
     'no-param-reassign': 0,
     'import/no-extraneous-dependencies': [0],
+    'consistent-return': [0],
   },
 };
