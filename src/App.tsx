@@ -30,7 +30,9 @@ function App() {
   return (
     <Provider store={store}>
       <QueryClientProvider client={queryClient}>
-        <NavigationContainer ref={navigationRef}>{/*  */}</NavigationContainer>
+        <NavigationContainer ref={navigationRef} >
+          {/*  */}
+        </NavigationContainer>
       </QueryClientProvider>
     </Provider>
   );
